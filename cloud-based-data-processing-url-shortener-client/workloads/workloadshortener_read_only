@@ -1,0 +1,12 @@
+servers=http://localhost:8001/
+
+recordcount=20
+operationcount=20
+workload=site.ycsb.workloads.URLShortenerWorkload
+
+readproportion=1.0
+insertproportion=0.0
+
+requestdistribution=zipfian
+dataintegrity=true
+

@@ -1,0 +1,20 @@
+workload=site.ycsb.workloads.URLShortenerWorkload
+
+# The servers to connect to. Comma separated.
+servers=http://localhost:8001/
+
+
+# The number of records loaded in the initial database.
+recordcount=20
+
+# The number of read and write operations to execute.
+operationcount=20
+
+# The proportions of read and write operations.
+readproportion=0.9
+insertproportion=0.1
+
+# The distribution of read and write operations over the keyspace.
+requestdistribution=latest
+
+dataintegrity=true
